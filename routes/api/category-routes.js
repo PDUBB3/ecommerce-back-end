@@ -17,6 +17,15 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/:id", async (req, res) => {
+  try {
+    const categories = await Category.findAll({
+      include: [Product],
+    });
+    res.json(categories);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+
   // find one category by its `id` value
   // be sure to include its associated Products
 });
