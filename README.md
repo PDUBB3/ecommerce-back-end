@@ -66,4 +66,4 @@ npm run seed
 
 ## Walkthrough Video
 
-Click [here]() to view my walkthrough video
+Click [here](https://drive.google.com/file/d/1Cs6CXUWhLP2KFpSGH-BvAEz1ntxidLLn/view) to view my walkthrough video Part 1 and [here](https://drive.google.com/file/d/1gKTqCOwCA9cWeid5ms2mFbHswOE4pNje/view) for part 2.
